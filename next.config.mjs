@@ -4,4 +4,8 @@ const nextConfig = {
 
 };
 
+module.exports = {
+    distDir: 'public', // Set the output directory
+  };
+
 export default nextConfig;
