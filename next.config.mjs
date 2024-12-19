@@ -1,11 +1,7 @@
-/** @type {import('next').NextConfig} */
+// Replace module.exports with export default
 const nextConfig = {
-    transpilePackages: ['swiper'],
-
+  reactStrictMode: true,
+  // Other configurations...
 };
-
-module.exports = {
-    distDir: 'public', // Set the output directory
-  };
 
 export default nextConfig;
